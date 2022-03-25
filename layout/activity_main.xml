@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+    <Button
+        android:id="@+id/button_get_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GET ALL"/>
+
+    <Button
+        android:id="@+id/button_get_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GET ONE"/>
+
+    <Button
+        android:id="@+id/button_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST"/>
+
+    <Button
+        android:id="@+id/button_put"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PUT"/>
+
+    <Button
+        android:id="@+id/button_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE"/>
+
+
+</LinearLayout>
